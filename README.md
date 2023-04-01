@@ -19,7 +19,8 @@
 - Criação da função calcular média
 - Criação da função situação final do aluno
 - Criação da função formatar situação
-- Criação da função validar números no campo de entrada input
+- Criação da função validar números no campo de entrada input => 
+  (se o usuário informar um número menor que zero ou mais que dez, irá receber um alerta)
 - Criação da função limpar campos de input
 
 ## 🌐 Referências
