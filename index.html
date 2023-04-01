@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <main>
+        <h1>Calcular Média</h1>
+
+        <form id="formulario">
+            <div class="campo-notas">
+                <label for="nota1">Nota 1</label>
+                <input type="number" onblur="validarNumero(this)" id="nota1" class="nota1" step="0.01" min="0" required>
+            </div>
+            <div class="campo-notas">
+                <label for="nota2">Nota 2</label>
+                <input type="number" onblur="validarNumero(this)" id="nota2" class="nota2" step="0.01" min="0" required>
+            </div>
+            <div class="botoes">
+                <button id="btn-calcular" type="submit">Calcular</button>
+                <button id="btn-limpar" type="reset">Limpar</button>
+            </div>
+        </form>
+
+        <section class="resultados">
+            <h2>Média</h2>
+            <div class="mostrar-media"></div>
+            <input type="text" class="parecer-aluno" disabled placeholder="Situação Final">
+        </section>
+
+        <div class="aviso"></div>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

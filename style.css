@@ -1,0 +1,149 @@
+:root {
+    --verde: #34CB79;
+    --laranja: #F49D5D;
+    --vermelho: #EF6A74;
+    --preto: #000000;
+    --bf-pagina: #F0F0F5;
+    --branco: #FFFFFF;
+    --roxo: #322153;
+    --amarelo: #f3d427;
+    --font-principal: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--bf-pagina);
+    font-size: 16px;
+    color: var(--preto);
+    font-family: var(--font-principal);
+}
+
+main {
+    padding: 10px;
+    width: 500px;
+    margin: 2em auto;
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+}
+
+h1 {
+    font-size: 26px;
+    font-weight: 800;
+    color: var(--roxo);
+    text-align: center;
+    margin: 1em 0;
+}
+
+#formulario {
+    padding: 20px 30px;
+}
+
+.campo-notas {
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.campo-notas label {
+    margin: 20px 10px 20px 0;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.campo-notas input {
+    width: 80px;
+    padding: 10px;
+    border: 1px solid #ccccd3;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.06);
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 0 15px 0 0;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    color: var(--branco);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#btn-calcular {
+    background-color: var(--roxo);
+}
+
+#btn-limpar {
+    background-color: var(--laranja);
+}
+
+.parecer-aluno {
+    cursor: wait;
+    width: 200px;
+    height: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccccd3;
+    border-radius: 8px;
+    box-shadow: 5px 5x 5px rgba(0, 0, 0, 0.06);
+    background-color: var(--branco);
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.resultados {
+    padding: 20px 30px;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.resultados h2 {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--roxo);
+    margin-bottom: 10px;
+}
+
+.mostrar-media {
+    width: 200px;
+    height: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccccd3;
+    border-radius: 8px;
+    box-shadow: 5px 5x 5px rgba(0, 0, 0, 0.06);
+    background-color: var(--branco);
+    font-weight: 700;
+}
+
+/*SITUAÇÃO DO ALUNO*/
+.aprovado {
+    background: var(--verde);
+}
+
+.recuperacao {
+    background: var(--amarelo);
+}
+
+.reprovado {
+    background: var(--vermelho);
+}
+
+.alerta {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--preto);
+    background: var(--vermelho);
+    padding: 10px 20px;
+    width: 280px;
+    margin: 0 auto;
+    line-height: 1.5em;
+}
