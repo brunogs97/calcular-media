@@ -1,4 +1,4 @@
-# Calcular-Media
+# Calcular-Média
 
 > 💻 Site  
 
