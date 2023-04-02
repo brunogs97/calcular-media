@@ -15,7 +15,6 @@
 
 ## ⚙ Documentação:
 - Criação de variaveis no CSS para utilizar nas cores e fonte
-- Adição de imagens e icones
 - Criação da função calcular média
 - Criação da função situação final do aluno
 - Criação da função formatar situação
